@@ -1,0 +1,10 @@
+int main()
+{
+	int a=10,*p,**q;
+	p=&a;
+	q=&p;
+	printf("value of a=%d",a);
+	printf("value of p=%d",*p);
+	printf("value of q=%d",**q);
+	return 0;
+}
